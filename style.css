@@ -1920,10 +1920,7 @@ a {
   .contact-page .right .box h4 {
     font-size: 20px;
   }
-
 }
-
-
 .contect-sec .row-first .main-box .icon {
   height: 60px;
   width: 60px;
@@ -3129,7 +3126,7 @@ h1, h2, h3, h4, h5, h6, .heading, #breadcrumb h2 {
 
 .sub-head i,
 .heading span {
-  color: #111111;
+  color: #f8f6f6;
 }
 
 #about-sec p,
@@ -3336,7 +3333,7 @@ h1, h2, h3, h4, h5, h6, .heading, #breadcrumb h2 {
 
 .breadcrumb-item+.breadcrumb-item::before,
 #breadcrumb h2 {
-  color: #111111 !important;
+  color: #e7e7e7 !important;
 }
 
 #about-sec .bottom-content-right .main-box .con-box,
