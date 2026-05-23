@@ -9,7 +9,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     
 
     // Your email where you want to receive messages
-    $to = "sales@aenaishadesignstudio.com";  // <-- CHANGE to your email address
+    $to = "info.aenaishadesignstudio@gmail.com";  // <-- CHANGE to your email address
 
     // Email contentx
     $body  = "You have received a new message from your website contact form.\n\n";
