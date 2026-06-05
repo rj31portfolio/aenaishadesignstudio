@@ -1705,29 +1705,30 @@ h3 {
   padding: 200px 0 150px 0;
 }
 
-.breadcrumb {
+#breadcrumb .breadcrumb {
   justify-content: center;
 }
 
-.breadcrumb-item.active {
+#breadcrumb .breadcrumb-item.active,
+#breadcrumb .breadcrumb-item.active a {
   font-weight: 500;
   color: white !important;
   font-size: 20px;
   text-decoration: none;
 }
 
-.breadcrumb-item+.breadcrumb-item::before {
+#breadcrumb .breadcrumb-item+.breadcrumb-item::before {
   color: white!important;
 }
 
-.breadcrumb-item a {
+#breadcrumb .breadcrumb-item a {
   font-weight: 500;
   color: white;
   font-size: 20px;
   text-decoration: none;
   transition: 0.5s;
 }
-.breadcrumb-item a:hover{
+#breadcrumb .breadcrumb-item a:hover{
   color: var(--primary-dark);
 }
 #breadcrumb h2 {
@@ -3127,10 +3128,8 @@ h1, h2, h3, h4, h5, h6, .heading, #breadcrumb h2 {
 #service-details .accordion-body,
 #service-details a,
 #service-details .right .box p,
-#service-details .left .list-group-flush .main-box a,
-#breadcrumb .breadcrumb-item a,
-#breadcrumb .breadcrumb-item.active {
-  color: rgba(17, 17, 17, 0.74);
+#service-details .left .list-group-flush .main-box a {
+  color: rgba(8, 8, 8, 0.74);
 }
 
 #about-sec .thir-btn,
@@ -3320,7 +3319,7 @@ h1, h2, h3, h4, h5, h6, .heading, #breadcrumb h2 {
   background-color: #111111;
 }
 
-.breadcrumb-item+.breadcrumb-item::before,
+#breadcrumb .breadcrumb-item+.breadcrumb-item::before,
 #breadcrumb h2 {
   color: #e7e7e7 !important;
 }

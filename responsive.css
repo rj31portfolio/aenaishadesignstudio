@@ -314,11 +314,12 @@
         font-size: 50px;
     }
 
-    .breadcrumb-item.active {
+    #breadcrumb .breadcrumb-item.active,
+    #breadcrumb .breadcrumb-item.active a {
         font-size: 18px;
     }
 
-    .breadcrumb-item a {
+    #breadcrumb .breadcrumb-item a {
         font-size: 18px;
     }
 
@@ -541,11 +542,12 @@
         #breadcrumb h2 {
         font-size: 28px;
     }
-       .breadcrumb-item a {
+       #breadcrumb .breadcrumb-item a {
         font-size: 16px;
     }
 
-    .breadcrumb-item.active {
+    #breadcrumb .breadcrumb-item.active,
+    #breadcrumb .breadcrumb-item.active a {
         font-size: 16px;
     }
     .blog-page .right {
