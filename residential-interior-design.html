@@ -20,77 +20,55 @@
 <body>
     <div class="combo">
         <section id="header">
-            <div class="container px-0">
-                <nav class="navbar navbar-expand-lg ">
-                    <div class="container-fluid px-0">
-                        <div class="col-lg-2 col-md-4 col-6">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="../img/logo-2.png" alt="Aenaisha Design Studio" class="site-logo">
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid px-0">
+                    <div class="col-lg-3 col-md-5 col-8">
+                        <a class="navbar-brand" href="index.html" aria-label="Aenaisha Design Studio home">
+                            <img src="img/logo-2.png" alt="Aenaisha Design Studio" class="site-logo">
+                        </a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa-solid fa-bars-staggered"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#services-sec" id="navbarDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Our Services
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="commercial-interior-design.html">Commercial Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="residential-interior-design.html">Residential Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="office-interior-design.html">Office Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="kitchen-interior-design.html">Kitchen Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="modular-interior-design.html">Modular Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="retail-shop-interior-design.html">Retail Shop Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="washroom-interior-design.html">Washroom Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="luxury-interior-design.html">Luxury Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="wardrobe-interior-design.html">Wardrobe Interior Design</a></li>
+                                    <li><a class="dropdown-item" href="services.html">All Services</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="project.html">Project Gallery</a></li>
+                            <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        </ul>
+                        <div class="d-flex">
+                            <a href="tel:+918587911095" class="btn-main">
+                                <span>Get In Touch <i class="fa-solid fa-arrow-right"></i></span>
                             </a>
                         </div>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="fa-solid fa-bars-staggered"></span>
-                        </button>
-                        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#product-sec" id="navbarDropdown"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Our Services
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="commercial-interior-design.html">Commercial
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="residential-interior-design.html">Residential
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="office-interior-design.html">Office Interior
-                                                Design</a></li>
-                                        <li><a class="dropdown-item" href="kitchen-interior-design.html">Kitchen
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="modular-interior-design.html">Modular
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="retail-shop-interior-design.html">Retail Shop
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="washroom-interior-design.html">Washroom
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="luxury-interior-design.html">Luxury Interior
-                                                Design</a></li>
-                                        <li><a class="dropdown-item" href="wardrobe-interior-design.html">Wardrobe
-                                                Interior Design</a></li>
-                                        <li><a class="dropdown-item" href="services.html">All Services</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="project.html">Project Gallery</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-
-                            </ul>
-                            <form class="d-flex">
-                                <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                                <a href="tel:+918587911095" class="btn-main">
-                                    <span>Get In Touch <i class="fa-solid fa-arrow-right"></i></span>
-                                </a>
-                            </form>
-                        </div>
                     </div>
-                </nav>
-            </div>
-        </section>
+                </div>
+            </nav>
+        </div>
+    </section>
         <!-- breadcrumb section start -->
         <section id="breadcrumb">
 
@@ -207,7 +185,7 @@
                             <img src="img/services/contact.jpg" class="card-img-top" data-aos="zoom-in" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">How Can We Assist You?</h5>
-                                <p class="card-text">Our team is here to support youâ€”reach out for smooth and hassle-free guidance.
+                                <p class="card-text">Our team is here to support youÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âreach out for smooth and hassle-free guidance.
                                 </p>
                             </div>
                             <ul class="list-group list-group-flush">
@@ -248,7 +226,7 @@
                     </p>
                     <p data-aos="fade-up">
                         From smart space planning to premium materials, furniture, and lighting, every detail is
-                        thoughtfully designed. Whether itâ€™s a full home interior or a single room, we focus on creating
+                        thoughtfully designed. Whether it's a full home interior or a single room, we focus on creating
                         spaces that are visually appealing, highly functional, and built to last.
                     </p>
 
@@ -389,7 +367,7 @@
                                 <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
                                         Project timelines depend on the size and scope. Modular work and single rooms
-                                        usually take 2â€“4 weeks, while full home interiors are completed within 4â€“6
+                                        usually take 2ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“4 weeks, while full home interiors are completed within 4ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“6
                                         weeks. Commercial projects are planned based on their scale and requirements.
                                     </div>
                                 </div>
@@ -542,44 +520,32 @@
     <!-- ===== FOOTER START ===== -->
     <footer class="footerJah py-5">
         <div class="container">
-
-            <!-- Top: Logo + Socials -->
             <div class="row footer-topJah align-items-center">
                 <div class="col-md-4 col-12">
-                    <div class="footer-logoJah ">
-                        <img src="../img/logo-2.png" alt="Aenaisha Design Studio" class="site-logo">
+                    <div class="footer-logoJah footer-brand">
+                        <img src="img/logo-2.png" alt="Aenaisha Design Studio" class="site-logo">
                     </div>
                 </div>
-                <div
-                    class="col-md-8 col-12 d-flex justify-content-start align-items-center justify-content-md-end mt-3 mt-md-0">
+                <div class="col-md-8 col-12 d-flex justify-content-start align-items-center justify-content-md-end mt-3 mt-md-0">
                     <div class="footer-socialsTitleJah">Follow Our Socials</div>
                     <div class="footer-socialsJah">
-                        <a href="https://www.facebook.com/people/Aenaisha-Design-studio/61559112802954/" target=""><i
-                                class="fa-brands fa-facebook-f"></i></a>
-                        <a href="https://www.instagram.com/aenaisha_" target=""><i
-                                class="fa-brands fa-instagram"></i></a>
-
+                        <a href="https://www.facebook.com/people/Aenaisha-Design-studio/61559112802954/" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/aenaisha_" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
             </div>
-
-            <!-- Middle: 4 Columns -->
             <div class="row gy-4">
-                <!-- Info -->
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-headingJah">Information</div>
                     <ul class="footer-linksJah">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="about.html">About Us</a></li>
                         <li><a href="services.html">Our Services</a></li>
-                        <li><a href="project.html">Porject Gallery</a></li>
+                        <li><a href="project.html">Project Gallery</a></li>
                         <li><a href="blog.html">Blogs</a></li>
                         <li><a href="contact.html">Contact</a></li>
-
                     </ul>
-                </div>
-
-                <!-- Services -->
+                </div>  
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-headingJah">Services</div>
                     <ul class="footer-linksJah">
@@ -590,64 +556,38 @@
                         <li><a href="retail-shop-interior-design.html">Retail Shop Interior Design</a></li>
                         <li><a href="washroom-interior-design.html">Washroom Interior Design</a></li>
                         <li><a href="wardrobe-interior-design.html">Wardrobe Interior Design</a></li>
-
                     </ul>
                 </div>
-
-                <!-- Contact -->
                 <div class="col-lg-3 col-md-6">
                     <div class="footer-headingJah">Contact Us</div>
-
                     <div class="footer-contactItemJah">
-                        <div class="footer-contactIconJah">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-                        <a href="tel:+918587911095">
-                            <div>+91 85879 11095</div>
-                        </a>
+                        <div class="footer-contactIconJah"><i class="fa-solid fa-phone"></i></div>
+                        <a href="tel:+918587911095"><div>+91 85879 11095</div></a>
                     </div>
-
                     <div class="footer-contactItemJah">
-                        <div class="footer-contactIconJah">
-                            <i class="fa-solid fa-envelope"></i>
-                        </div>
-                        <a href="mailto:sales@aenaishadesignstudio.com">
-                            <div>sales@aenaishadesignstudio.com</div>
-                        </a>
+                        <div class="footer-contactIconJah"><i class="fa-solid fa-envelope"></i></div>
+                        <a href="mailto:sales@aenaishadesignstudio.com"><div>Email Support</div></a>
                     </div>
-
                     <div class="footer-contactItemJah">
-                        <div class="footer-contactIconJah">
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-                        <div>
-                            Plot No. 10, Gali No. 8, Kadipur Industrial Area, Sector-37C, Gurugram, Haryana.
-                        </div>
+                        <div class="footer-contactIconJah"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>Plot No. 10, Gali No. 8, Kadipur Industrial Area, Sector-37C, Gurugram, Haryana.</div>
                     </div>
                 </div>
-
-                <!-- Newsletter -->
                 <div class="col-lg-3 col-md-6">
-                    <div class="footer-headingJah">Get Interior Design Updates</div>
+                    <div class="footer-headingJah">Studio Note</div>
                     <div class="footer-newsTextJah">
-                        Stay inspired with the latest interior trends, modern design ideas, and luxury space
-                        transformations from <strong>Aenaisha Design Studio</strong>. Subscribe for expert tips and fresh
-                        inspiration.
-                    </div>
+                        Aenaisha Design Studio focuses on premium, warm and functional interiors for clients who want
+                        spaces that feel tailored instead of generic.
+                    </div>    
                     <div class="footer-inputWrapJah">
                         <input type="email" class="footer-inputJah" placeholder="Enter your email">
-                        <span class="footer-inputArrowJah">
-                            <i class="fa-solid fa-arrow-right-long"></i>
-                        </span>
+                        <span class="footer-inputArrowJah"><i class="fa-solid fa-arrow-right-long"></i></span>
                     </div>
                 </div>
             </div>
-
-            <!-- Bottom -->
             <div class="footer-bottomJah">
-                Copyright Â© 2026 <a href="index.html"> Aenaisha Design Studio.</a> All Rights Reserved.
+                Copyright &copy; 2026 <a href="index.html">Aenaisha Design Studio</a>. All Rights Reserved.
             </div>
-
         </div>
     </footer>
     <!-- ===== FOOTER END ===== -->
@@ -746,7 +686,7 @@
 
                 function update(currentTime) {
                     const elapsed = currentTime - startTime;
-                    const progress = Math.min(elapsed / duration, 1); // 0 â†’ 1
+                    const progress = Math.min(elapsed / duration, 1); // 0 ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ 1
                     const currentValue = Math.floor(progress * target);
                     counter.textContent = currentValue + (counter.dataset.suffix || "");
                     if (progress < 1) {
