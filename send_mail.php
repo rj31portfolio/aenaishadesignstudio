@@ -6,8 +6,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone   = htmlspecialchars(trim($_POST['phone']));
     $subject = htmlspecialchars(trim($_POST['subject']));
     $message = htmlspecialchars(trim($_POST['message']));
-    
-
     // Your email where you want to receive messages
     $to = "info.aenaishadesignstudio@gmail.com";  // <-- CHANGE to your email address
 
@@ -15,7 +13,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $body  = "You have received a new message from your website contact form.\n\n";
     $body .= "Name: $name\n";
     $body .= "Email: $email\n";
-    
     $body .= "Phone: $phone\n";
     $body .= "Subject: $subject\n";
     $body .= "Message:\n$message\n";
